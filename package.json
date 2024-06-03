@@ -1,0 +1,21 @@
+{
+  "name": "@namchee/biome-config",
+  "version": "1.0.0",
+  "description": "General purpose BiomeJS configuration file by Namchee",
+  "files": [
+    "biome.json"
+  ],
+  "scripts": {},
+  "keywords": [
+    "biome"
+  ],
+  "author": {
+    "name": "Cristopher Namchee",
+    "email": "cristophernamchee12@gmail.com",
+    "url": "https://www.namchee.dev"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "@biomejs/biome": "^1.7.0"
+  }
+}
