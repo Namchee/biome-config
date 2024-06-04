@@ -6,7 +6,8 @@
     "biome.json"
   ],
   "scripts": {
-    "publish": "pnpm run publish --no-git-checks"
+    "ci:version": "pnpm changeset version",
+    "ci:publish": "pnpm run publish --no-git-checks"
   },
   "keywords": [
     "biome"
