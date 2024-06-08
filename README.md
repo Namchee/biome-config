@@ -25,12 +25,17 @@ You can extend your BiomeJS config using `extends` keyword.
 ```jsonc
 {
     "$schema": "https://biomejs.dev/schemas/1.7.0/schema.json",
-    "extends": ["./node_modules/@namchee/biome-config/biome.json"]
+    "extends": ["@namchee/biome-config/biome.json"]
 }
 ```
 
-> [!NOTE]
-> Since BiomeJS API might change in the future, how the configuration is extended might also be changed in the future.
+## Compatibility
+
+- **Use for**: JavaScript, TypeScript, React.
+- **Do not use for**: HTML superlanguage projects such as Vue, Svelte, and Astro. Use [`@namchee/eslint-config`](https://github.com/Namchee/eslint-config-namchee) instead.
+
+> [!IMPORTANT]
+> Biome currently only support frontmatters and script tags when parsing HTML superlanguage files, which makes it possible to cause false alarm.
 
 ## License
 
