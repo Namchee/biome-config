@@ -24,8 +24,8 @@ You can extend your BiomeJS config using `extends` keyword.
 
 ```jsonc
 {
-    "$schema": "https://biomejs.dev/schemas/1.7.0/schema.json",
-    "extends": ["@namchee/biome-config/biome.json"]
+    "$schema": "https://biomejs.dev/schemas/<version>/schema.json",
+    "extends": ["./node_modules/@namchee/biome-config/biome.json"] // the configuration resolution doesn't work correctly in VSCode extension yet
 }
 ```
 
