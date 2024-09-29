@@ -19,7 +19,7 @@
   },
   "license": "MIT",
   "peerDependencies": {
-    "@biomejs/biome": "^1.7.0"
+    "@biomejs/biome": "^1.9.2"
   },
   "devDependencies": {
     "@changesets/cli": "^2.27.5"
