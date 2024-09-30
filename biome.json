@@ -3,13 +3,16 @@
 	"organizeImports": {
 		"enabled": true
 	},
+	"files": {
+		"ignoreUnknown": true
+	},
 	"linter": {
 		"enabled": true,
 		"rules": {
 			"recommended": true,
 			"complexity": {
 				"useSimplifiedLogicExpression": "warn",
-				"noExcessiveCognitiveComplexity": "error"
+				"noExcessiveCognitiveComplexity": "warn"
 			},
 			"correctness": {
 				"noNewSymbol": "error",
@@ -54,9 +57,31 @@
 			"jsxQuoteStyle": "double",
 			"quoteProperties": "asNeeded",
 			"semicolons": "always",
-			"trailingComma": "all",
 			"quoteStyle": "single",
-			"indentWidth": 2
+			"indentWidth": 2,
+			"trailingCommas": "all",
+			"lineEnding": "lf",
+			"lineWidth": 80,
+			"attributePosition": "auto"
+		},
+		"linter": {
+			"enabled": true
+		}
+	},
+	"css": {
+		"parser": {
+			"cssModules": true
+		},
+		"formatter": {
+			"enabled": true,
+			"indentStyle": "space",
+			"indentWidth": 2,
+			"lineEnding": "lf",
+			"lineWidth": 80,
+			"quoteStyle": "single"
+		},
+		"linter": {
+			"enabled": true
 		}
 	},
 	"json": {
