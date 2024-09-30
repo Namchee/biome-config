@@ -7,7 +7,7 @@
   ],
   "scripts": {
     "ci:version": "changeset version",
-    "ci:publish": "chnageset tag && pnpm publish"
+    "ci:publish": "changeset tag && pnpm publish"
   },
   "keywords": [
     "biome"
