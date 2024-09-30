@@ -51,6 +51,7 @@
 	},
 	"javascript": {
 		"formatter": {
+			"enabled": true,
 			"arrowParentheses": "always",
 			"bracketSameLine": false,
 			"bracketSpacing": true,
